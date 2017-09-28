@@ -10,9 +10,9 @@ public class HomepageController {
 
 	@RequestMapping (value = "/home")
 	public ModelAndView init(){
-		ModelAndView model = new ModelAndView("home");
-		model.addObject("title", "Homepage");
-		model.addObject("greetings", "Welcome to IDonate!");		
+		ModelAndView model = new ModelAndView("page");
+		model.addObject("superTitle", "IDonate | ");	
+		model.addObject("title", "Habit of donating!");
 		return model;
 	}
 	
