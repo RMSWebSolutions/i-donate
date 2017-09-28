@@ -10,15 +10,18 @@
 	http://www.springframework.org/schema/mvc
 	http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 	
+	<!-- Spring DI configuration -->
 	<context:component-scan base-package="in.co.rmswebsolutions.idonate.web.controller"/>
 	
+	<!-- JSP View resolver for idonate servlet mapping -->
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/"></property>
 		<property name="suffix" value=".jsp"></property>
 	</bean>
 	
+	<!-- Enable resource loader for Spring MVC -->
 	<mvc:annotation-driven/>
-	
+	<!-- Defer resource locator path in jsp page -->
 	<mvc:resources location="/WEB-INF/assets/" mapping="/resources/**" />
 	
 </beans>

@@ -9,10 +9,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class HomepageController {
 
 	@RequestMapping (value = "/home")
-	public ModelAndView init(){
+	public ModelAndView home(){
 		ModelAndView model = new ModelAndView("page");
-		model.addObject("superTitle", "IDonate | ");	
-		model.addObject("title", "Habit of donating!");
+		model.addObject("title", "Home");
 		return model;
 	}
 	
