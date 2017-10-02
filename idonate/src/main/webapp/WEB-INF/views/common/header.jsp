@@ -7,7 +7,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<a class="navbar-brand" href="/web/home">I-Donate | Habit of
-			donating!</a>
+			donating</a>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active"><a class="nav-link"

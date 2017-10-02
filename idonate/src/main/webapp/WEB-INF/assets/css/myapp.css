@@ -13,3 +13,8 @@ body {
         padding-top: 56px;
     }
 }
+
+.submenu-font .list-group-item {
+	font-size: 14px;
+	text-align: center;
+}

@@ -6,6 +6,7 @@
 <!-- Assets path variable for reference -->
 <spring:url var="css" value="/resources/css" />
 <spring:url var="js" value="/resources/js" />
+<spring:url var="fonts" value="/resources/fonts" />
 
 
 <html lang="en">
